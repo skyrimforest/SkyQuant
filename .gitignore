@@ -1,0 +1,57 @@
+# 常见的Python忽略规则
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.dist-info/
+
+# PyCharm特定的忽略规则
+.idea/
+*.iml
+out/
+*.pyc
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# 日志文件
+*.log
+
+# 数据库文件
+*.db
+
+# 本地配置文件
+local_settings.py
+settings_local.py
+
+# 测试报告
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+
+# 临时文件
+*.swp
+*.swo
+*.tmp
+
+# 打包相关
+*.whl
+*.zip
+*.tar
+*.tar.gz
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 环境变量
+.env
+.venv
+.env.*
