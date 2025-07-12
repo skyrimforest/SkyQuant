@@ -1,0 +1,12 @@
+config:
+  tool_chain: torch
+  advance_yaml: ''
+
+
+  task: image_classification # 任务
+  target_platform: arm_mobile # 平台
+  priority: balanced # 目标
+  model_type: CNN # 结构
+
+
+

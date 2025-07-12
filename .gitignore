@@ -19,6 +19,7 @@ venv/
 env/
 ENV/
 .venv/
+network/
 
 # 日志文件
 *.log
